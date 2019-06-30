@@ -23,7 +23,7 @@ public class TestDog {
         Animal b = new Dog2();// Dog 对象
         a.move();// 执行 Animal 类的方法
         b.move();//执行 Dog 类的方法
-        b.bark();
+//        b.bark(); // 这里执行会报错
     }
 }
 
