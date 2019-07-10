@@ -1,5 +1,7 @@
 package com.learning.string;
 
+import java.util.StringTokenizer;
+
 public class StringSplitExample {
     public static void main(String[] args) {
         String str = "https://imcoco.top";
@@ -22,5 +24,9 @@ public class StringSplitExample {
             System.out.println(x);
             System.out.println("");
         }
+
+        String  str2 = "This is String , split by StringTokenizer, created by runoob";
+        StringTokenizer st = new StringTokenizer(str2);
+        System.out.println("----- 通过空格分隔 ------");
     }
 }
