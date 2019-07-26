@@ -1,4 +1,4 @@
-package com.learning.method;
+package com.learning.instance;
 
 /*先来看下方法重载（Overloading）的定义：
 如果有两个方法的方法名相同，但参数不一致，哪么可以说一个方法是另一个方法的重载。 具体说明如下：

@@ -29,7 +29,7 @@ public class TestDog {
 
 //该程序将抛出一个编译错误，因为b的引用类型Animal没有bark方法。
 //TestDog.java:30: cannot find symbol
-//        symbol  : method bark()
+//        symbol  : instance bark()
 //        location: class Animal
 //                b.bark();
 //        ^
